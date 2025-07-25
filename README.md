@@ -29,6 +29,8 @@ This Capstone project is based on a typical retail sales data ingestion task. Ra
 ## Phase 2 Data Injestion 
 
 --.yaml file is needed to get dbt UI up and running
+	dbt_project.yml
+ 
 --staged tables in dbt came from the tables in raw sources 
 
 -- dbt was opened in local host:

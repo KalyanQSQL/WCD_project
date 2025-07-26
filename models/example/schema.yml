@@ -1,0 +1,19 @@
+version: 2 
+
+sources: 
+  - name : TPCDS
+    database: TPCDS
+    schema: '"RAW"'
+    tables: 
+    - name: catalog_sales
+    - name: web_sales
+    - name: inventory
+    - name: customer
+    - name: customer_address
+    - name: customer_demographics
+    - name: date_dim 
+    - name: household_demographics
+    - name: income_band
+    - name: item 
+    - name: warehouse
+    - name: promotion 
